@@ -4,4 +4,4 @@ Para todos os curiosos e perdidos.
 
 ## Cryptomoedas
 
-- [Nano](https://github.com/dxsmx/guia-cryptomoedas/nano)
+- [Nano](https://github.com/dxsmx/guia-cryptomoedas/tree/master/nano)
