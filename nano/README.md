@@ -21,10 +21,10 @@ O foco desse guia é introduzí-lo ao Nano para que você possa ter — em a
   - [Entendendo Chaves e Seeds](#entendendo-chaves-e-seeds)
   - [Resumo](#resumo)
   - [O que são chaves públicas e privadas?](#o-que-s%C3%A3o-chaves-p%C3%BAblicas-e-privadas)
-  - [Adicionar Figura](#adicionar-figura)
+  - [![](assets/fig1-cap1.png)](#assetsfig1-cap1png)
   - [Adicionar figura](#adicionar-figura)
   - [O que é uma seed?](#o-que-%C3%A9-uma-seed)
-  - [Adicionar Figura](#adicionar-figura-1)
+  - [Adicionar Figura](#adicionar-figura)
   - [Como endereços XRB/Nano são gerados?](#como-endere%C3%A7os-xrbnano-s%C3%A3o-gerados)
 
 # Capítulo 1
@@ -126,7 +126,7 @@ Chaves públicas e privadas são parte vitais de uma criptomoeda e provêem um m
 Nano usa um padrão bem estabelecido de chaves públicas e privadas. Uma chave privada é usada para “assinar” transações no bloco. Essa chave privada possui uma chave pública que é diretamente ligada a um endereço. O único método para criar uma transação ligada à uma carteira é assinar esse block com uma **chave privada** — com Nano isso pode ser enviado e recebido.
 
 ---
-Adicionar Figura
+![](assets/fig1-cap1.png)
 ---
 
 Como a chave privada é única, quando com o bloco é criada uma única assinatura. A chave pública correspondente pode ser usada para verificar se a assinatura está correta, entretanto, se você tentar criar um bloco assinado com uma chave privada incorreta, será fácil para a rede rejeitar esse bloco.
