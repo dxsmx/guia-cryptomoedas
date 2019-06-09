@@ -21,10 +21,7 @@ O foco desse guia é introduzí-lo ao Nano para que você possa ter — em a
   - [Entendendo Chaves e Seeds](#entendendo-chaves-e-seeds)
   - [Resumo](#resumo)
   - [O que são chaves públicas e privadas?](#o-que-s%C3%A3o-chaves-p%C3%BAblicas-e-privadas)
-  - [![](assets/fig1-cap1.png)](#assetsfig1-cap1png)
-  - [Adicionar figura](#adicionar-figura)
   - [O que é uma seed?](#o-que-%C3%A9-uma-seed)
-  - [Adicionar Figura](#adicionar-figura)
   - [Como endereços XRB/Nano são gerados?](#como-endere%C3%A7os-xrbnano-s%C3%A3o-gerados)
 
 # Capítulo 1
@@ -101,9 +98,9 @@ Também há o [subreddit](https://reddit.com/r/nanocurrency/) onde você pode ac
 
 ---
 
-*Este capítulo foi totalmente inspirado pelo seguinte [guia](http://www.nano-guide.com/). Agradeço ao [u/radicalwash](https://www.reddit.com/user/radicalwash) pelo excelente guia.
+**Este capítulo foi totalmente inspirado pelo seguinte [guia](http://www.nano-guide.com/). Agradeço ao [u/radicalwash](https://www.reddit.com/user/radicalwash) pelo excelente guia.*
 
-*Este guia não possui nenhum interesse comercial. Recomendações foram feitas baseadas em experiências pessoais.
+**Este capítulo não possui nenhum interesse comercial. Recomendações foram feitas baseadas em experiências pessoais.*
 
 # Capítulo 2
 
@@ -125,17 +122,13 @@ Chaves públicas e privadas são parte vitais de uma criptomoeda e provêem um m
 
 Nano usa um padrão bem estabelecido de chaves públicas e privadas. Uma chave privada é usada para “assinar” transações no bloco. Essa chave privada possui uma chave pública que é diretamente ligada a um endereço. O único método para criar uma transação ligada à uma carteira é assinar esse block com uma **chave privada** — com Nano isso pode ser enviado e recebido.
 
----
-![](assets/fig1-cap1.png)
----
+![Fig. 1 Assinando blocos — draw.io](assets/fig1-cap2.png)
 
 Como a chave privada é única, quando com o bloco é criada uma única assinatura. A chave pública correspondente pode ser usada para verificar se a assinatura está correta, entretanto, se você tentar criar um bloco assinado com uma chave privada incorreta, será fácil para a rede rejeitar esse bloco.
 
 Isso significa que os usuários não precisam dar suas chaves privadas para a verificação, somente as chaves públicas.
 
----
-Adicionar figura
----
+![Fig. 2 Checando se uma bloco assinado é válido](assets/fig2-cap2.png)
 
 ## O que é uma seed?
 
@@ -143,9 +136,7 @@ Uma **seed** (ou *semente*) é uma forma fácil de gerenciar diversas chaves pri
 
 Esse processo permite que você recupere suas chaves e seus Nano com uma única seed.
 
----
-Adicionar Figura
----
+![Fig 3 Uma seed sempre produzirá as mesmas chaves privadas em ordem](assets/fig3-cap2.png)
 
 ## Como endereços XRB/Nano são gerados?
 
@@ -157,4 +148,4 @@ Em resumo:
 - Em um bloco Nano, cada endereço possui seu próprio blockchain. Isso que permite a reutilização de seu interesse
 
 ---
-*Esse guia foi totalmente traduzido a partir desse [post](https://www.reddit.com/r/nanocurrency/comments/aoe0me/nano_how_1_seeds_and_keys/) no reddit do usuário [u/jayycox](https://www.reddit.com/user/jayycox). Todos os créditos são dele.
+**Esse capítulo foi totalmente traduzido a partir desse [post](https://www.reddit.com/r/nanocurrency/comments/aoe0me/nano_how_1_seeds_and_keys/) no reddit do usuário [u/jayycox](https://www.reddit.com/user/jayycox). Todos os créditos são dele.*
